@@ -9,4 +9,5 @@
 
 /* The supplied hero render includes a white canvas edge; overscan keeps it
    outside the product frame while preserving the bottle's full silhouette. */
-.hero .bottle-frame img{width:130%;max-width:none;margin-left:-15%;object-position:50% 47%}
+.hero .bottle-frame img{width:100%;max-width:none;margin:0;object-position:50% 47%;animation:heroBottleFloat 6s ease-in-out infinite}
+@keyframes heroBottleFloat{0%,100%{transform:translateY(0) scale(1.85)}50%{transform:translateY(-13px) scale(1.85)}}
