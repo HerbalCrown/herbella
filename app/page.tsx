@@ -427,7 +427,9 @@ export default function Home() {
             </form>
           </div>
         </div>
-        <div className="footer-word">HERBELLA</div>
+        <div className="footer-word">
+          <img src="/assets/herbella-wordmark.svg" alt="Herbella" />
+        </div>
         <div className="footer-bottom">
           <span>© 2026 HERBAL CROWN</span>
           <span>BOTANICAL LUXURY, BOTTLED.</span>
