@@ -55,8 +55,10 @@ img {
   letter-spacing: 0.18em;
 }
 .crown-mark {
-  color: var(--gold);
-  font-size: 27px;
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+  flex: 0 0 auto;
 }
 .nav-wrap nav {
   display: flex;

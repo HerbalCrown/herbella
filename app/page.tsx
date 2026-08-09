@@ -66,11 +66,7 @@ const testimonials = [
 ];
 
 function CrownMark() {
-  return (
-    <span className="crown-mark" aria-hidden="true">
-      ♛
-    </span>
-  );
+  return <img className="crown-mark" src="/assets/crown-mark.svg" alt="" />;
 }
 
 export default function Home() {
