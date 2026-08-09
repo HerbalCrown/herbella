@@ -45,7 +45,7 @@ export default function Home() {
         </div>
         <div className="hero-product">
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
-          <div className="bottle-frame"><img src="/assets/herbella-bottle.png" alt="Herbella botanical luxury hair oil bottle" /></div>
+          <div className="bottle-frame"><img src="/assets/herbella-hero-bottle.png" alt="Herbella botanical luxury hair oil bottle" /></div>
           <span className="float-label one">20+<small>HERBS</small></span>
           <span className="float-label two">100%<small>HERBAL</small></span>
         </div>
