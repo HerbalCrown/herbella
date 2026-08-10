@@ -21,7 +21,7 @@ const bundles = [
     qty: "1",
     name: "The Ritual",
     sub: "A first taste of Herbella",
-    price: "$24",
+    price: "Rs 2,400",
     old: "",
     badge: "START HERE",
   },
@@ -29,8 +29,8 @@ const bundles = [
     qty: "2",
     name: "The Duo",
     sub: "Share one. Keep one.",
-    price: "$42",
-    old: "$48",
+    price: "Rs 4,200",
+    old: "Rs 4,800",
     badge: "MOST LOVED",
     featured: true,
   },
@@ -38,8 +38,8 @@ const bundles = [
     qty: "3",
     name: "The Crown Set",
     sub: "Your complete 90-day ritual",
-    price: "$56",
-    old: "$72",
+    price: "Rs 5,600",
+    old: "Rs 7,200",
     badge: "BEST VALUE",
   },
 ];
@@ -290,7 +290,7 @@ export default function Home() {
                 className={
                   b.featured ? "button dark-button" : "button outline-button"
                 }
-                href="#contact"
+                href={`/product?bundle=${b.qty === "1" ? "ritual" : b.qty === "2" ? "duo" : "crown"}`}
               >
                 Choose{" "}
                 {b.qty === "1" ? "single" : b.qty === "2" ? "duo" : "set"}{" "}
