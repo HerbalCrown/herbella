@@ -1,9 +1,9 @@
 import { env } from "cloudflare:workers";
 
 const packages = {
-  ritual: { name: "The Ritual", price: 2400 },
-  duo: { name: "The Duo", price: 4200 },
-  crown: { name: "The Crown Set", price: 5600 },
+  ritual: { name: "The Ritual", price: 650 },
+  duo: { name: "The Duo", price: 1100 },
+  crown: { name: "The Crown Set", price: 1650 },
 } as const;
 
 type Bundle = keyof typeof packages;

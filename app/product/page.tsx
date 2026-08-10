@@ -4,9 +4,9 @@ import { FormEvent, useEffect, useMemo, useState } from "react";
 import "./product.css";
 
 const packages = {
-  ritual: { id: "ritual", name: "The Ritual", units: 1, price: 2400, copy: "A first taste of Herbella" },
-  duo: { id: "duo", name: "The Duo", units: 2, price: 4200, copy: "Share one. Keep one." },
-  crown: { id: "crown", name: "The Crown Set", units: 3, price: 5600, copy: "Your complete 90-day ritual" },
+  ritual: { id: "ritual", name: "The Ritual", units: 1, price: 650, copy: "A first taste of Herbella" },
+  duo: { id: "duo", name: "The Duo", units: 2, price: 1100, copy: "Share one. Keep one." },
+  crown: { id: "crown", name: "The Crown Set", units: 3, price: 1650, copy: "Your complete 90-day ritual" },
 } as const;
 
 type PackageKey = keyof typeof packages;
@@ -76,4 +76,3 @@ export default function ProductPage() {
     </main>
   );
 }
-
