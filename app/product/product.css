@@ -3,3 +3,5 @@
 @media(max-width:850px){.product-shell{grid-template-columns:1fr}.product-showcase{position:relative;height:auto;padding:50px 25px}.checkout-form{padding:55px 25px}.checkout-image{height:400px}.package-tabs{grid-template-columns:1fr 1fr 1fr}}@media(max-width:520px){.checkout-nav{padding:0 18px}.checkout-nav>a:last-child{font-size:0}.checkout-nav>a:last-child:after{content:'← Back';font-size:9px}.checkout-image{height:330px;min-height:0}.checkout-image img{width:330px}.field-grid{grid-template-columns:1fr}.field-grid .full{grid-column:auto}.checkout-heading h2{font-size:44px}.package-tabs button strong{font-size:14px}}
 
 .checkout-page{font-weight:400}
+
+.package-tabs button strong,.order-summary>div strong,.success-card dd{font-family:'Italiana',serif;font-weight:600}
