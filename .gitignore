@@ -39,3 +39,7 @@ yarn-error.log*
 /.wrangler/
 /outputs/
 /work/
+
+
+# temporary files
+/tmp/
