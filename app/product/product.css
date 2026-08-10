@@ -5,3 +5,15 @@
 .checkout-page{font-weight:400}
 
 .package-tabs button strong,.order-summary>div strong,.success-card dd{font-family:'Italiana',serif;font-weight:600}
+
+@media (min-width:851px){
+  .product-showcase{padding:28px 4vw 24px;height:calc(100vh - 82px);overflow:hidden;display:flex;flex-direction:column}
+  .product-showcase .checkout-kicker{margin:0}
+  .checkout-image{width:100%;height:min(34vh,280px);min-height:210px;margin:14px 0}
+  .checkout-image img{width:100%;max-width:none;object-fit:cover;object-position:50% 45%}
+  .checkout-image span{right:2%}
+  .product-showcase h1{font-size:clamp(42px,4.2vw,62px);line-height:.95;margin:5px 0 0}
+  .product-showcase>p:not(.checkout-kicker){margin:8px 0 0}
+  .package-tabs{width:100%;margin-top:18px}
+  .package-tabs button{padding:12px 6px}
+}
