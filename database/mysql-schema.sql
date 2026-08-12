@@ -1,0 +1,23 @@
+CREATE TABLE IF NOT EXISTS orders (
+  id VARCHAR(36) NOT NULL,
+  invoice_number VARCHAR(32) NOT NULL,
+  customer_name VARCHAR(100) NOT NULL,
+  email VARCHAR(160) NOT NULL,
+  phone VARCHAR(30) NOT NULL,
+  address VARCHAR(500) NOT NULL,
+  city VARCHAR(100) NOT NULL,
+  bundle VARCHAR(20) NOT NULL,
+  bundle_name VARCHAR(100) NOT NULL,
+  quantity TINYINT UNSIGNED NOT NULL,
+  unit_price INT UNSIGNED NOT NULL,
+  shipping INT UNSIGNED NOT NULL,
+  total INT UNSIGNED NOT NULL,
+  payment_method VARCHAR(40) NOT NULL DEFAULT 'Cash on Delivery',
+  status VARCHAR(30) NOT NULL DEFAULT 'pending',
+  created_at DATETIME NOT NULL,
+  PRIMARY KEY (id),
+  UNIQUE KEY orders_invoice_number_unique (invoice_number),
+  KEY orders_created_at_index (created_at),
+  KEY orders_status_index (status),
+  KEY orders_phone_index (phone)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;

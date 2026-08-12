@@ -55,25 +55,30 @@ export default function ProductPage() {
     setSubmitting(true);
     setError("");
     const form = new FormData(event.currentTarget);
-    const response = await fetch("/api/orders", {
-      method: "POST",
-      headers: { "content-type": "application/json" },
-      body: JSON.stringify({
-        bundle: selected,
-        quantity,
-        customerName: form.get("customerName"),
-        email: form.get("email"),
-        phone: form.get("phone"),
-        address: form.get("address"),
-        city: form.get("city"),
-        notes: form.get("notes"),
-      }),
-    });
-    const data = await response.json();
-    setSubmitting(false);
-    if (!response.ok)
-      return setError(data.error || "Unable to place your order.");
-    setResult(data);
+    try {
+      const response = await fetch("/api/orders", {
+        method: "POST",
+        headers: { "content-type": "application/json" },
+        body: JSON.stringify({
+          bundle: selected,
+          quantity,
+          customerName: form.get("customerName"),
+          email: form.get("email"),
+          phone: form.get("phone"),
+          address: form.get("address"),
+          city: form.get("city"),
+          notes: form.get("notes"),
+        }),
+      });
+      const data = await response.json();
+      if (!response.ok)
+        return setError(data.error || "Unable to place your order.");
+      setResult(data);
+    } catch {
+      setError("Unable to connect to checkout. Please try again.");
+    } finally {
+      setSubmitting(false);
+    }
   }
 
   if (result) {

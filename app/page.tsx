@@ -21,7 +21,7 @@ const bundles = [
     qty: "1",
     name: "The Ritual",
     sub: "A first taste of Herbella",
-    price: "Rs 650",
+    price: "Rs 800",
     old: "",
     badge: "START HERE",
   },
@@ -29,7 +29,7 @@ const bundles = [
     qty: "2",
     name: "The Duo",
     sub: "Share one. Keep one.",
-    price: "Rs 1,100",
+    price: "Rs 1500",
     old: "",
     badge: "MOST LOVED",
     featured: true,
@@ -38,7 +38,7 @@ const bundles = [
     qty: "3",
     name: "The Crown Set",
     sub: "Your complete 90-day ritual",
-    price: "Rs 1,650",
+    price: "Rs 2200",
     old: "",
     badge: "BEST VALUE",
   },
@@ -372,7 +372,7 @@ export default function Home() {
             <input
               name="email"
               type="email"
-              placeholder="you@example.com"
+              placeholder="herbalcrownhairoil@gmail.com"
               required
             />
           </label>
