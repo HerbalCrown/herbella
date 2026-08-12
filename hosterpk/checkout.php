@@ -28,7 +28,7 @@ $shipping = (int)$config['shipping_fee'];
   <section class="product-showcase">
     <p class="checkout-kicker">BOTANICAL LUXURY HAIR OIL</p>
     <div class="checkout-image">
-      <img src="assets/images/herbella-bottle.webp" alt="Herbella botanical hair oil">
+      <img src="assets/images/herbella-bottle.webp?v=20260812" alt="Herbella botanical hair oil">
       <span id="unit-label"><?= (int)$allPackages[$selectedKey]['units'] ?> &times; 100 ml</span>
     </div>
     <h1 id="package-name"><?= e($allPackages[$selectedKey]['name']) ?></h1>

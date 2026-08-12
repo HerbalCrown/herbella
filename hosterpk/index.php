@@ -15,7 +15,7 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
   <meta property="og:image" content="<?= e(rtrim($config['site_url'], '/')) ?>/assets/images/og.png">
   <link rel="canonical" href="<?= e(rtrim($config['site_url'], '/')) ?>/">
   <link rel="icon" href="assets/images/crown-mark.svg">
-  <link rel="preload" as="image" href="assets/images/herbella-hero-bottle.webp" type="image/webp">
+  <link rel="preload" as="image" href="assets/images/herbella-hero-bottle.webp?v=20260812" type="image/webp">
   <link rel="stylesheet" href="assets/css/site.min.css">
 </head>
 <body>
@@ -37,7 +37,7 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
     </div>
     <div class="hero-product">
       <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-      <div class="bottle-frame"><img src="assets/images/herbella-hero-bottle.webp" alt="Herbella botanical luxury hair oil bottle" width="1200" height="1600"></div>
+      <div class="bottle-frame"><img src="assets/images/herbella-hero-bottle.webp?v=20260812" alt="Herbella botanical luxury hair oil bottle" width="1200" height="1600"></div>
       <span class="float-label one">20+<small>HERBS</small></span><span class="float-label two">100%<small>HERBAL</small></span>
     </div>
   </section>
@@ -51,7 +51,7 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
         <p class="body-copy">Herbella brings together a purposeful combination of over twenty herbs. Each drop honours generations of botanical hair care—refined for your modern ritual.</p>
         <a class="text-link dark-link" href="#benefits">Explore the benefits <span>→</span></a>
       </div>
-      <div class="ingredient-visual"><div class="sun-disc"></div><img src="assets/images/herbella-label.webp" loading="lazy" alt="Herbella herbal formula label"><span class="ingredient-tag tag-a">NOURISH</span><span class="ingredient-tag tag-b">STRENGTHEN</span><span class="ingredient-tag tag-c">RESTORE</span></div>
+      <div class="ingredient-visual"><div class="sun-disc"></div><img src="assets/images/herbella-label.webp?v=20260812" loading="lazy" alt="Herbella herbal formula label"><span class="ingredient-tag tag-a">NOURISH</span><span class="ingredient-tag tag-b">STRENGTHEN</span><span class="ingredient-tag tag-c">RESTORE</span></div>
     </div>
     <div class="feature-list">
       <article><span>01</span><h3>20+ Botanical Oils</h3><p>A considered blend of traditional herbs and nutrient-rich oils, selected to care for scalp and strand.</p></article>
@@ -76,9 +76,9 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
     <div class="section-head"><p class="eyebrow dark"><span></span> CHOOSE YOUR RITUAL</p><span class="index">03 / SHOP</span></div>
     <div class="center-title"><h2>Find your perfect <em>ritual.</em></h2><p>More consistency. More care. More value.</p></div>
     <div class="bundle-grid">
-      <article><div class="badge">START HERE</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Ritual</h3><p>A first taste of Herbella</p><div class="price">Rs 800</div><a class="button outline-button" href="checkout.php?bundle=ritual">Choose single <span>→</span></a></article>
-      <article class="featured"><div class="badge">MOST LOVED</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Duo</h3><p>Share one. Keep one.</p><div class="price">Rs 1,500</div><a class="button dark-button" href="checkout.php?bundle=duo">Choose duo <span>→</span></a></article>
-      <article><div class="badge">BEST VALUE</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Crown Set</h3><p>Your complete 90-day ritual</p><div class="price">Rs 2,200</div><a class="button outline-button" href="checkout.php?bundle=crown">Choose set <span>→</span></a></article>
+      <article><div class="badge">START HERE</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp?v=20260812" loading="lazy" alt=""></div><h3>The Ritual</h3><p>A first taste of Herbella</p><div class="price">Rs 800</div><a class="button outline-button" href="checkout.php?bundle=ritual">Choose single <span>→</span></a></article>
+      <article class="featured"><div class="badge">MOST LOVED</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp?v=20260812" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp?v=20260812" loading="lazy" alt=""></div><h3>The Duo</h3><p>Share one. Keep one.</p><div class="price">Rs 1,500</div><a class="button dark-button" href="checkout.php?bundle=duo">Choose duo <span>→</span></a></article>
+      <article><div class="badge">BEST VALUE</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp?v=20260812" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp?v=20260812" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp?v=20260812" loading="lazy" alt=""></div><h3>The Crown Set</h3><p>Your complete 90-day ritual</p><div class="price">Rs 2,200</div><a class="button outline-button" href="checkout.php?bundle=crown">Choose set <span>→</span></a></article>
     </div>
     <p class="shipping-note">✦ RS 300 DELIVERY ACROSS PAKISTAN</p>
   </section>
