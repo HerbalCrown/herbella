@@ -54,7 +54,7 @@ const testimonials = [
   {
     quote:
       "The texture feels luxurious without being heavy. Even the bottle has become part of my bathroom décor.",
-    name: "Layla M.",
+    name: "Komal M.",
     detail: "VERIFIED CUSTOMER",
   },
   {
