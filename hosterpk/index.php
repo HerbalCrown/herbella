@@ -11,7 +11,7 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
   <title>Herbella — Botanical Luxury Hair Oil</title>
   <meta name="description" content="Discover Herbella by Herbal Crown, a botanical luxury hair oil ritual blending 20+ herbs. Cash on Delivery across Pakistan.">
   <meta property="og:title" content="Herbella — Botanical Luxury Hair Oil">
-  <meta property="og:description" content="Rooted in nature. Crowned in confidence.">
+  <meta property="og:description" content="Naturally stronger. Beautifully crowned.">
   <meta property="og:image" content="<?= e(rtrim($config['site_url'], '/')) ?>/assets/images/og.png">
   <link rel="canonical" href="<?= e(rtrim($config['site_url'], '/')) ?>/">
   <link rel="icon" href="assets/images/crown-mark.svg">
@@ -30,8 +30,8 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
     <div class="hero-glow"></div>
     <div class="hero-copy">
       <p class="eyebrow"><span></span> THE ESSENCE OF BOTANICAL LUXURY</p>
-      <h1>Rooted in nature.<br><em>Crowned</em> in confidence.</h1>
-      <p class="lead">A botanical hair oil ritual blending 20+ herbs to nourish the scalp, support stronger-looking hair and restore natural-looking radiance.</p>
+      <h1>Naturally stronger.<br>Beautifully <em>crowned.</em></h1>
+      <p class="lead">A potent hair oil ritual blending 20+ herbs to nourish the scalp, support stronger-looking hair and restore your natural radiance.</p>
       <div class="hero-actions"><a class="button gold" href="#bundles">Shop Herbella <span>→</span></a><a class="text-link" href="#formula">Discover the formula <span>↓</span></a></div>
       <div class="hero-notes"><span>✦ 100% HERBAL FORMULA</span><span>✦ FOR ALL HAIR TYPES</span><span>✦ 100 ML</span></div>
     </div>
@@ -48,14 +48,14 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
     <div class="section-head"><p class="eyebrow dark"><span></span> WHAT'S INSIDE</p><span class="index">01 / THE FORMULA</span></div>
     <div class="formula-grid">
       <div><h2>Ancient botanicals.<br><em>Modern alchemy.</em></h2>
-        <p class="body-copy">Herbella brings together a purposeful combination of over twenty herbs. Each drop honours generations of botanical hair care, refined for a modern ritual.</p>
+        <p class="body-copy">Herbella brings together a purposeful combination of over twenty herbs. Each drop honours generations of botanical hair care—refined for your modern ritual.</p>
         <a class="text-link dark-link" href="#benefits">Explore the benefits <span>→</span></a>
       </div>
       <div class="ingredient-visual"><div class="sun-disc"></div><img src="assets/images/herbella-label.webp" loading="lazy" alt="Herbella herbal formula label"><span class="ingredient-tag tag-a">NOURISH</span><span class="ingredient-tag tag-b">STRENGTHEN</span><span class="ingredient-tag tag-c">RESTORE</span></div>
     </div>
     <div class="feature-list">
       <article><span>01</span><h3>20+ Botanical Oils</h3><p>A considered blend of traditional herbs and nutrient-rich oils, selected to care for scalp and strand.</p></article>
-      <article><span>02</span><h3>Root-First Ritual</h3><p>A massage-friendly texture created to nourish the scalp without turning self-care into a chore.</p></article>
+      <article><span>02</span><h3>Root-First Ritual</h3><p>A massage-friendly texture created to nourish the scalp without turning your self-care routine into a chore.</p></article>
       <article><span>03</span><h3>All Hair Types</h3><p>A versatile formula for straight, wavy, curly and coily hair—made for every crown.</p></article>
     </div>
   </section>
@@ -65,8 +65,8 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
     <div class="benefit-title"><h2>Your crown,<br><em>beautifully cared for.</em></h2><p>One golden ritual. A world of care for the hair you live in.</p></div>
     <div class="benefit-grid">
       <article><b>01</b><div class="line-icon">↗</div><h3>Supports Stronger-Looking Hair</h3><p>Nourishing oils help reduce the appearance of breakage and keep every strand feeling resilient.</p></article>
-      <article><b>02</b><div class="line-icon">◉</div><h3>Nourishes the Scalp</h3><p>Massage from root to tip to comfort dry-feeling scalps and support healthy-looking hair.</p></article>
-      <article><b>03</b><div class="line-icon">✦</div><h3>Softness & Natural Shine</h3><p>Helps smooth the look of frizz and leaves hair feeling softer and more manageable.</p></article>
+      <article><b>02</b><div class="line-icon">◉</div><h3>Nourishes the Scalp</h3><p>Massage in from root to tip to comfort dry-feeling scalps and build the foundation for healthy-looking hair.</p></article>
+      <article><b>03</b><div class="line-icon">✦</div><h3>Softness & Natural Shine</h3><p>Helps smooth the look of frizz and leaves hair feeling softer, more manageable, and beautifully luminous.</p></article>
     </div>
   </section>
 
@@ -76,9 +76,9 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
     <div class="section-head"><p class="eyebrow dark"><span></span> CHOOSE YOUR RITUAL</p><span class="index">03 / SHOP</span></div>
     <div class="center-title"><h2>Find your perfect <em>ritual.</em></h2><p>More consistency. More care. More value.</p></div>
     <div class="bundle-grid">
-      <article><div class="badge">START HERE</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Ritual</h3><p>A first taste of Herbella</p><div class="price">Rs 650</div><a class="button outline-button" href="checkout.php?bundle=ritual">Choose single <span>→</span></a></article>
-      <article class="featured"><div class="badge">MOST LOVED</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Duo</h3><p>Share one. Keep one.</p><div class="price">Rs 1,100</div><a class="button dark-button" href="checkout.php?bundle=duo">Choose duo <span>→</span></a></article>
-      <article><div class="badge">BEST VALUE</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Crown Set</h3><p>Your complete 90-day ritual</p><div class="price">Rs 1,650</div><a class="button outline-button" href="checkout.php?bundle=crown">Choose set <span>→</span></a></article>
+      <article><div class="badge">START HERE</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Ritual</h3><p>A first taste of Herbella</p><div class="price">Rs 800</div><a class="button outline-button" href="checkout.php?bundle=ritual">Choose single <span>→</span></a></article>
+      <article class="featured"><div class="badge">MOST LOVED</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Duo</h3><p>Share one. Keep one.</p><div class="price">Rs 1,500</div><a class="button dark-button" href="checkout.php?bundle=duo">Choose duo <span>→</span></a></article>
+      <article><div class="badge">BEST VALUE</div><div class="mini-products"><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""><img src="assets/images/herbella-bottle.webp" loading="lazy" alt=""></div><h3>The Crown Set</h3><p>Your complete 90-day ritual</p><div class="price">Rs 2,200</div><a class="button outline-button" href="checkout.php?bundle=crown">Choose set <span>→</span></a></article>
     </div>
     <p class="shipping-note">✦ RS 300 DELIVERY ACROSS PAKISTAN</p>
   </section>
@@ -87,9 +87,9 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
     <div class="section-head"><p class="eyebrow"><span></span> WORDS FROM OUR COMMUNITY</p><span class="index">04 / REVIEWS</span></div>
     <div class="review-intro"><h2>Loved by <em>every crown.</em></h2><div><span class="stars">★★★★★</span><strong>4.9</strong><small>CUSTOMER EXPERIENCES</small></div></div>
     <div class="testimonial-grid">
-      <blockquote><span class="quote-mark">“</span><p>My wash-day routine finally feels like a ritual. Herbella is rich and my scalp feels wonderfully cared for.</p><footer><span class="avatar">A</span><span><strong>Amina R.</strong><small>VERIFIED CUSTOMER</small></span></footer></blockquote>
-      <blockquote><span class="quote-mark">“</span><p>The texture feels luxurious without being heavy. Even the bottle has become part of my bathroom décor.</p><footer><span class="avatar">L</span><span><strong>Layla M.</strong><small>VERIFIED CUSTOMER</small></span></footer></blockquote>
-      <blockquote><span class="quote-mark">“</span><p>I bought the duo for my sister and me. We love the herbal scent and how soft our hair feels.</p><footer><span class="avatar">S</span><span><strong>Sara K.</strong><small>VERIFIED CUSTOMER</small></span></footer></blockquote>
+      <blockquote><span class="quote-mark">“</span><p>My wash-day routine finally feels like a ritual. Herbella is rich, beautiful, and my scalp feels wonderfully cared for.</p><footer><span class="avatar">A</span><span><strong>Amina R.</strong><small>VERIFIED CUSTOMER</small></span></footer></blockquote>
+      <blockquote><span class="quote-mark">“</span><p>The texture feels luxurious without being heavy. Even the bottle has become part of my bathroom décor.</p><footer><span class="avatar">K</span><span><strong>Komal M.</strong><small>VERIFIED CUSTOMER</small></span></footer></blockquote>
+      <blockquote><span class="quote-mark">“</span><p>I bought the duo for my sister and me. We both love the herbal scent and how soft our hair feels after wash day.</p><footer><span class="avatar">S</span><span><strong>Sara K.</strong><small>VERIFIED CUSTOMER</small></span></footer></blockquote>
     </div>
   </section>
 

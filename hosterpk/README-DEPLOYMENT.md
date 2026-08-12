@@ -45,9 +45,9 @@ unavailable.
 
 ## Pricing configured
 
-- The Ritual: Rs 650
-- The Duo: Rs 1,100
-- The Crown Set: Rs 1,650
+- The Ritual: Rs 800
+- The Duo: Rs 1,500
+- The Crown Set: Rs 2,200
 - Shipping: Rs 300
 - Tax: none
 - Payment: Cash on Delivery

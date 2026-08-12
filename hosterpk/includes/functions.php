@@ -33,9 +33,9 @@ function require_csrf(): void
 function packages(): array
 {
     return [
-        'ritual' => ['name' => 'The Ritual', 'units' => 1, 'price' => 650, 'copy' => 'A first taste of Herbella'],
-        'duo' => ['name' => 'The Duo', 'units' => 2, 'price' => 1100, 'copy' => 'Share one. Keep one.'],
-        'crown' => ['name' => 'The Crown Set', 'units' => 3, 'price' => 1650, 'copy' => 'Your complete 90-day ritual'],
+        'ritual' => ['name' => 'The Ritual', 'units' => 1, 'price' => 800, 'copy' => 'A first taste of Herbella'],
+        'duo' => ['name' => 'The Duo', 'units' => 2, 'price' => 1500, 'copy' => 'Share one. Keep one.'],
+        'crown' => ['name' => 'The Crown Set', 'units' => 3, 'price' => 2200, 'copy' => 'Your complete 90-day ritual'],
     ];
 }
 
