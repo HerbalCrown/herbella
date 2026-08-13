@@ -95,9 +95,9 @@ export default function Home() {
             <span /> THE ESSENCE OF BOTANICAL LUXURY
           </p>
           <h1>
-            Rooted in nature.
+            Naturally stronger.
             <br />
-            <em>Crowned</em> in confidence.
+            Beautifully <em>crowned.</em>
           </h1>
           <p className="lead">
             A potent hair oil ritual blending 20+ herbs to nourish the scalp,
@@ -171,7 +171,7 @@ export default function Home() {
           <div className="ingredient-visual">
             <div className="sun-disc" />
             <img
-              src="/assets/herbella-label.png"
+              src="/assets/herbella-label.webp?v=20260813"
               alt="Herbella hair oil label featuring its herbal formula"
             />
             <span className="ingredient-tag tag-a">NOURISH</span>
