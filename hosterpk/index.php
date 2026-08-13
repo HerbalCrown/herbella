@@ -16,7 +16,7 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
   <link rel="canonical" href="<?= e(rtrim($config['site_url'], '/')) ?>/">
   <link rel="icon" href="assets/images/crown-mark.svg">
   <link rel="preload" as="image" href="assets/images/herbella-hero-bottle.webp?v=20260812" type="image/webp">
-  <link rel="stylesheet" href="assets/css/site.min.css?v=20260813">
+  <link rel="stylesheet" href="assets/css/site.min.css?v=20260813-2">
 </head>
 <body>
 <header class="nav-wrap">

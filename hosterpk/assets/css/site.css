@@ -208,9 +208,10 @@ img {
   transform: translateY(-24px);
 }
 .bottle-frame {
-  width: min(44vw, 635px);
-  height: 72vh;
-  max-height: 700px;
+  width: min(44vw, 680px);
+  height: auto;
+  aspect-ratio: 1 / 1;
+  max-height: 680px;
   overflow: hidden;
   position: relative;
   z-index: 2;
@@ -872,7 +873,8 @@ img {
   }
   .bottle-frame {
     width: 100%;
-    height: 560px;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
   .hero-notes {
     display: none;
@@ -970,7 +972,8 @@ img {
     height: 450px;
   }
   .bottle-frame {
-    height: 450px;
+    height: auto;
+    aspect-ratio: 1 / 1;
   }
   .orbit {
     width: 360px;
@@ -1078,9 +1081,9 @@ img {
 @keyframes heroBottleFloat {
   0%,
   100% {
-    transform: translateY(0) scale(1.9);
+    transform: translateY(0);
   }
   50% {
-    transform: translateY(-13px) scale(1.9);
+    transform: translateY(-13px);
   }
 }
