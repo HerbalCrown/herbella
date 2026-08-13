@@ -206,6 +206,7 @@ img {
   align-items: center;
   justify-content: center;
   min-width: 0;
+  transform: translateY(-24px);
 }
 .bottle-frame {
   width: min(50vw, 700px);
@@ -1061,9 +1062,9 @@ img {
 @keyframes heroBottleFloat {
   0%,
   100% {
-    transform: translateY(0) scale(2.1);
+    transform: translateY(0) scale(1.9);
   }
   50% {
-    transform: translateY(-13px) scale(2.1);
+    transform: translateY(-13px) scale(1.9);
   }
 }
