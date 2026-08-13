@@ -51,7 +51,7 @@ $whatsapp = preg_replace('/\D+/', '', (string)$config['whatsapp_number']);
         <p class="body-copy">Herbella brings together a purposeful combination of over twenty herbs. Each drop honours generations of botanical hair care—refined for your modern ritual.</p>
         <a class="text-link dark-link" href="#benefits">Explore the benefits <span>→</span></a>
       </div>
-      <div class="ingredient-visual"><div class="sun-disc"></div><img src="assets/images/herbella-label.webp?v=20260813" loading="lazy" alt="Herbella herbal formula bottle with golden oil ribbon"><span class="ingredient-tag tag-a">NOURISH</span><span class="ingredient-tag tag-b">STRENGTHEN</span><span class="ingredient-tag tag-c">RESTORE</span></div>
+      <div class="ingredient-visual"><div class="sun-disc"></div><img src="assets/images/herbella-label.webp?v=20260813-2" loading="lazy" alt="Herbella herbal formula bottle with golden oil ribbon"><span class="ingredient-tag tag-a">NOURISH</span><span class="ingredient-tag tag-b">STRENGTHEN</span><span class="ingredient-tag tag-c">RESTORE</span></div>
     </div>
     <div class="feature-list">
       <article><span>01</span><h3>20+ Botanical Oils</h3><p>A considered blend of traditional herbs and nutrient-rich oils, selected to care for scalp and strand.</p></article>

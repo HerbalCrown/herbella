@@ -171,7 +171,7 @@ export default function Home() {
           <div className="ingredient-visual">
             <div className="sun-disc" />
             <img
-              src="/assets/herbella-label.webp?v=20260813"
+              src="/assets/herbella-label.webp?v=20260813-2"
               alt="Herbella hair oil label featuring its herbal formula"
             />
             <span className="ingredient-tag tag-a">NOURISH</span>
